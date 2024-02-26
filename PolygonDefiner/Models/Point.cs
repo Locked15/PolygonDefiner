@@ -1,12 +1,12 @@
 ﻿namespace PolygonDefiner.Models
 {
-    internal class Point
+    public class Point
     {
-        public int X { get; private set; }
+        public double X { get; private set; }
 
-        public int Y { get; private set; }
+        public double Y { get; private set; }
 
-        public Point(int x, int y)
+        public Point(double x, double y)
         {
             X = x;
             Y = y;
